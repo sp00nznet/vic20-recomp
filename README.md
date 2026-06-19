@@ -1,4 +1,4 @@
-# vic20-recomp — Jelly Monsters, recompiled to native C
+# jellymonsters-vic20-recomp — Jelly Monsters, recompiled to native C
 
 **The VIC-20's *Jelly Monsters* (Commodore, 1981) — its 6502 cartridge ROM
 statically recompiled to native C on the [`vic20recomp`](../vic20recomp)

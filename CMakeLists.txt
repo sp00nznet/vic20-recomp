@@ -1,5 +1,5 @@
-# vic20-recomp - VIC-20 cartridge games recompiled to native C on the vic20recomp
-# toolkit.
+# jellymonsters-vic20-recomp - Jelly Monsters (VIC-20) recompiled to native C on
+# the vic20recomp toolkit.
 #
 #   cmake -S . -B build -G "Visual Studio 17 2022" -A x64 \
 #         -DVIC20RECOMP_DIR=D:/recomp/computers/vic20recomp
@@ -7,7 +7,7 @@
 # After generating games/<game>/generated/recomp_funcs.c with m6502recomp,
 # reconfigure with -D<GAME>_HAVE_RECOMP=ON to link the recompiled blocks in.
 cmake_minimum_required(VERSION 3.16)
-project(vic20_recomp C)
+project(jellymonsters_vic20_recomp C)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)

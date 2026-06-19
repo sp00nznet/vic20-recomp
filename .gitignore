@@ -1,0 +1,41 @@
+# Build output
+build/
+build-*/
+out/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.a
+
+# NEVER commit VIC-20 cartridge / ROM data - bring your own dump you legally own
+*.zip
+*.crt
+*.prg
+*.bin
+*.a0
+*.20
+*.40
+*.60
+*.rom
+roms/
+_work/
+
+# Recompiled game C is a derivative of the copyrighted cartridge - regenerate it
+games/*/generated/recomp_funcs.*
+
+# The toolkit is consumed via -DVIC20RECOMP_DIR (or vendored as a submodule);
+# don't commit a local copy dropped in here.
+/vic20recomp/
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Screenshots are kept (committed) so the README can show the render.
+!screenshots/*.png

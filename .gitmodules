@@ -1,0 +1,3 @@
+[submodule "vic20recomp"]
+	path = vic20recomp
+	url = https://github.com/sp00nznet/vic20recomp.git
